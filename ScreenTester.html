@@ -1,0 +1,26 @@
+<html>
+	<head>
+	<script type="text/javascript">
+	function myFunction() {
+	switch (document.body.style.backgroundColor){
+		case "rgb(0, 0, 0)":
+			document.body.style.backgroundColor = "#F00";
+			break;
+		case "rgb(255, 0, 0)":
+			document.body.style.backgroundColor = "#0F0";
+			break;
+		case "rgb(0, 255, 0)":
+			document.body.style.backgroundColor = "#00F";
+			break;
+		case "rgb(0, 0, 255)":
+			document.body.style.backgroundColor = "#000";
+			break;
+		default:
+			document.body.style.backgroundColor = "#000";
+			break;
+		}
+	}
+	</script>
+	</head>
+	<body onload="myFunction()" onClick="myFunction()"></body>
+</html>
